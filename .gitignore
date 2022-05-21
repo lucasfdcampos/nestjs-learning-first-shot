@@ -2,6 +2,10 @@
 /dist
 /node_modules
 
+# Docker
+/.docker/mysql
+/.docker/dbdata
+
 # Logs
 logs
 *.log
