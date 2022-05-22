@@ -8,7 +8,7 @@ import { Order } from './entities/order.entity';
 export class OrdersService {
   constructor(@InjectModel(Order) private orderModel: typeof Order) {}
 
-  create(createOrderDto: CreateOrderDto) {
+  create(createOrderDto: any) {
     return this.orderModel.create(createOrderDto);
   }
 
